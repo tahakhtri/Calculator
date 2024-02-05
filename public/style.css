@@ -1,0 +1,56 @@
+.man-div{
+    max-width: 400px;
+    width: 95%;
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.input-div{
+    width: 100%;
+    height: 100px;
+}
+
+.input-div input{
+
+    border: none;
+    outline: none;
+    background-color:rgb(58, 109, 58);
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    width: 86px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: rgb(98, 110, 87);
+}
+
+.btn :hover{
+    background-color: rgb(147, 113, 113);
+
+}
